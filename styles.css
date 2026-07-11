@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Nanum Myeongjo';
+    color: antiquewhite;
+    background-color: #1b3a3a;
+    padding: 2em;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+}
+
+.hero-text {
+  flex: 1;
+  text-align: left;
+  color: white;
+}
+
+.hero-text h1 {
+  font-size: 3em;
+  color: antiquewhite;
+  text-align: left;
+}
+
+.hero-text p {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+.hero-text .intro {
+  text-align: left;
+}
+
+.tagline-badge {
+  display: inline-block;
+  padding: 0.7em;
+  background-color: #8ed6ff;
+  border-radius: 3em;
+  color: #ff6767;
+}
+
+img {
+  width: 17em;
+  border-radius: 40%;
+  border: 3px solid #ffb5b5;
+  box-shadow: 7px 7px 15px rgba(16, 15, 15, 0.819);
+  margin-right: 2em;
+  margin-bottom: 1em;
+}
+
+h1{
+  text-align: center;
+  margin: 0.5em;
+}
+
+.intro{
+  text-align: center;
+  margin: 0.5em;
+}
+
+section{
+  padding: 1.5em;
+}
+
+h1, h2, h3{
+  color: antiquewhite;
+  margin-bottom: 0.4em;
+  font-size: 1.7em;
+}
+
+h2{
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+ul{
+  list-style: none;
+  padding-left: 0;
+}
+
+li{
+  margin-bottom: 1em;
+}
+
+h4{
+  margin-bottom: 0.3em;
+}
+
+.contact, p{
+  margin-bottom: 0.9em;
+}
+
+.about{
+  padding: 1em;
+  max-width: 70em;
+  margin: 0 auto;
+  font-size: 1.1em;
+}
+
+.panel {
+  width: 100%;
+  margin-left: -2em;
+  margin-right: -2em;
+  width: calc(100% + 4em);
+}   
+
+
+.panel-a {
+  background: linear-gradient(to right, #0f2321, #5fd3d3);
+}
+
+.skill-item {
+  padding: 1.2em;
+  border-radius: 1.2em;
+  border: 3px solid #ff6767;
+  box-shadow: 5px 5px 15px rgba(23, 23, 23, 0.74);
+  font-size: 1.1em;
+}
+
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  margin-top: 0.7em;
+  justify-content: space-evenly;
+}
+
+.skills{
+  padding: 1em;
+  flex: 1;
+  font-size: 1.2em;
+}
+
+.projects{
+  padding: 1em;
+  flex: 1;
+  font-size: 1.2em;
+}
+
+.panel-b {
+  background: linear-gradient(to left,#0f2321, #5fd3d3);
+}
+
+.panel-c {
+  background: linear-gradient(to right,#0f2321, #5fd3d3);
+}
+
+.hobbies{
+  padding: 2em;
+  max-width: 80em;
+  margin: 0 auto;
+  margin-top: 1.5em;
+}
+
+.hobby-list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5em;
+  margin-top: 0.7em;
+  justify-content: space-evenly;
+}
+
+.hobby-items{
+  padding: 1.7em;
+  border-radius: 1.2em;
+  border: 3px solid #ff6767;
+  box-shadow: 5px 5px 15px rgba(23, 23, 23, 0.74);
+  font-size: 1.3em;
+}
+
+.panel-d {
+  background: linear-gradient(to left,#0f2321, #5fd3d3);
+}
+
+.contact{
+  padding: 1em;
+  color: antiquewhite;
+  font-size: 1.3em;
+  border: 2px solid #f8fa96;
+  max-width: 90em;
+  margin: 0 auto;
+  margin-top: 0.7em;
+  margin-bottom: 0.5em;
+}
+
+.contact h2 {
+  color: antiquewhite;
+}
+
+.panel-e {
+  background: linear-gradient(to right,#0f2321, #5fd3d3);
+}
